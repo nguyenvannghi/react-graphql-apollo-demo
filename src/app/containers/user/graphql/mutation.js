@@ -7,5 +7,22 @@ const CREATE_USER = gql`
         }
     }
 `;
+const UPDATE_USER = gql`
+    mutation updateUser($id: ID!, $email: String!, $name: String!) {
+        updateUser(id: $id, email: $email, name: $name) {
+            createdAt
+            id
+        }
+    }
+`;
 
-export default CREATE_USER;
+const DELETE_USER = gql`
+    mutation deleteUser($id: ID!) {
+        deleteUser(id: $id) {
+            createdAt
+            id
+        }
+    }
+`;
+
+export { CREATE_USER, UPDATE_USER, DELETE_USER };
