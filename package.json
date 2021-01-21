@@ -12,7 +12,7 @@
         "grommet-icons": "^4.4.0",
         "grommet-styles": "^0.2.0",
         "history": "^4.10.1",
-        "immer": "^5.0.0",
+        "immer": "^8.0.1",
         "invariant": "^2.2.4",
         "lodash": "^4.17.15",
         "node-sass-chokidar": "^1.4.0",
